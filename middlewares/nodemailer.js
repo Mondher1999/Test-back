@@ -23,7 +23,7 @@ export async function  sendConfirmationEmail (email,activationCode)  {
     
     await transporter.sendMail({
 
-     from: "hamza.benayed@esprit.tn",
+     from: "mondher.benhajammar@esprit.tn",
       to: email,
       subject: "Please confirm your account",
       text: "Email Confirmation " ,
